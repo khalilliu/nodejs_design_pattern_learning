@@ -1,0 +1,14 @@
+{
+  "name": "chapter_8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "requirejs": "^2.3.5",
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.10"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../node_modules/requirejs/require.js"></script>
+	<script>
+		window.addEventListener('load', function(){
+			requirejs.config({
+				baseUrl: './',
+				paths: {
+					mustache: '../node_modules/mustache/mustache',
+					umdModule: './umdModule'
+				}
+			});
+			require(['umdModule'],function(umdModule){
+				var hello = umdModule.sayHello('Broswer!');
+				var main = document.getElementById('main');
+				main.innerHTML = hello;
+			})
+		})
+	</script>
+</head>
+<body>
+	<div id="main"></div>
+</body>
+</html>

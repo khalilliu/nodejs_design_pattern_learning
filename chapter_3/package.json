@@ -1,0 +1,13 @@
+{
+  "name": "chapter_3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0",
+    "slug": "^0.9.1"
+  }
+}
